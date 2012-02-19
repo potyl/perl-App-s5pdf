@@ -1,0 +1,5 @@
+Makefile
+pm_to_blib
+blib
+App-s5pdf-*.tar.gz
+Makefile.old

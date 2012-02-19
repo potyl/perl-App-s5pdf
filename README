@@ -1,0 +1,28 @@
+ABOUT
+-----
+s5pdf is an S5 presentation to PDF converter. It uses WebKit for generating the
+slides and for taking captuting each slide page. The slides are then all merged
+into a single PDF file.
+
+
+INSTALLATION
+------------
+
+perl Makefile.PL
+make
+sudo make install
+
+
+USAGE
+-----
+s5pdf URL
+
+
+AUTHOR
+------
+Written by Emmanuel Rodriguez <potyl@cpan.org>
+
+
+COPYRIGH
+--------
+Copyright (c) 2011 Emmanuel Rodriguez. License same as Perl.

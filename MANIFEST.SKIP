@@ -1,0 +1,7 @@
+^Makefile$
+^Makefile[.]old$
+^blib/
+^App-s5pdf-
+^pm_to_blib$
+[.]gitignore
+^[.]git/
