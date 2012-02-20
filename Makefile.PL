@@ -10,8 +10,9 @@ sub main {
     my $script = catfile('bin', 's5pdf');
 
     WriteMakefile(
-        AUTHOR       => 'Emmanuel Rodriguez <potyl@cpan.org>',
-        NAME         => 'App::s5pdf',
+        NAME          => 'App::s5pdf',
+        ABSTRACT      => "Convert an S5 presentation to PDF",
+        AUTHOR        => 'Emmanuel Rodriguez <potyl@cpan.org>',
         VERSION_FROM  => $script,
         PREREQ_PM => {
             'Getopt::Long'   => 0,
